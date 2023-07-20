@@ -35,7 +35,7 @@ public class pattern2 {
 } 
 }
 
-day 2 some pgms
+# day 2 some pgms
 public class operators {
     public static void main(String[] args) {
         int a=12,b=12,c=14,d=14,result1,result2,result3,result4;
@@ -108,7 +108,7 @@ public class operators
     }
 }
 
-day 3 pgms
+# day 3 pgms
 public class palindrome
 {
     public static void main(String[] args)
