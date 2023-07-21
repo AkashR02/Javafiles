@@ -350,3 +350,112 @@ class Main{
         }
     }
 }
+
+class Student1 {
+    int roll_no;
+    String stu_name;
+    double m1,m2,m3,m4;
+    Student1()
+    {
+        roll_no=1001;
+        stu_name="Rohith";
+        m1=80.0;
+        m2=81.0;
+        m3=84.0;
+        m4=88.0;
+    }
+}
+
+class Main{
+    public static void main(String[] args) {
+        
+        {
+            Student1 s1=new Student1();
+            System.out.println(s1.roll_no+" "+s1.stu_name+" "+s1.m1);
+            System.out.println(s1.m2+" "+s1.m3+" "+s1.m4);
+           Student1 s2=new Student1();
+            System.out.println(s2.roll_no+" "+s2.stu_name+" "+s2.m1);
+            System.out.println(s2.m2+" "+s2.m3+" "+s1.m4);
+        }
+    }
+}
+
+package package1;
+class Employee
+{
+float salary=40000.0f;
+}sssssssssssssssssssssssssssssssssssss
+class programmer extends Employee
+{
+    int bonus=10000;
+}
+
+class SinglrInheritance
+{
+    public static void main(String args[])
+    {
+        Programmer p=new Programmer();
+        System.out.println("Programer salary is:"+p.salary);
+        System.out.println("Bonus of is:"+p.bonus);
+    }
+}
+
+
+package package2;
+
+public class Animal {
+    void eat()
+    {
+        System.out.println("eating...");
+    }
+    
+}
+package package2;
+
+public class Dog extends Animal{
+    void bark()
+    {
+        System.out.println("barking...");
+    }
+    
+}
+package package2;
+
+public class BabyDog extends Dog {
+    void weep()
+    {
+        System.out.println("weeping...");
+    }    
+}
+package package2;
+
+public class TestInheritence {
+    public static void main(String[] args)
+    {
+        BabyDog d =new BabyDog();
+        d.weep();
+        d.bark();
+        d.eat();
+    }
+    
+}
+
+package project4;
+
+public class adder {
+    static int add(int a, int b){
+        return a+b;
+    }
+    static int add(int a, int b,int c){
+        return a+b+c;
+    }
+}
+package project4;
+
+public class overloading {
+    public static void main(String[] args) {
+        System.out.println(adder.add(11,11));
+        System.out.println(adder.add(12,13,15));
+    }
+    
+}
